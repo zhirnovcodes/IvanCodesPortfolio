@@ -1,9 +1,9 @@
-# Deploy the static HTML site to GitHub Pages on every push to main.
+# Deploy the static HTML site to GitHub Pages on every push to master.
 name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]
+    branches: [master]
   workflow_dispatch:
 
 permissions:
