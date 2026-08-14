@@ -90,7 +90,11 @@
       });
 
       item.addEventListener("click", function () {
-        clickedItem = item;
+        if (clickedItem === item) {
+          clickedItem = null;
+        } else {
+          clickedItem = item;
+        }
         updateHighlight();
       });
 
