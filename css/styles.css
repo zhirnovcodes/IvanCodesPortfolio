@@ -174,7 +174,6 @@ a:hover {
 }
 
 .content-inner {
-  max-width: 42rem;
   margin: 0 auto;
   padding: 1.5rem var(--space) 3rem;
 }
@@ -208,8 +207,8 @@ h2 {
 
 .hello-intro {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(8rem, 300px);
-  gap: 1.25rem 1.5rem;
+  grid-template-columns: 1fr;
+  gap: 1.25rem;
   align-items: start;
 }
 
@@ -233,7 +232,7 @@ h2 {
   margin: 0;
   width: 100%;
   max-width: 300px;
-  justify-self: end;
+  justify-self: start;
 }
 
 .contact-list {
@@ -401,6 +400,90 @@ body.menu-open {
   overflow: hidden;
 }
 
+.skills {
+  position: relative;
+  margin-top: 3rem;
+  text-align: left;
+}
+
+.skills-title {
+  margin-bottom: 0.5rem;
+}
+
+.skills-category h2 {
+  margin-top: 2rem;
+  text-align: left;
+}
+
+.skills-list {
+  display: table;
+  width: 100%;
+  margin: 0.75rem 0 0;
+  padding: 0;
+  list-style: none;
+  color: var(--text);
+  border-collapse: collapse;
+}
+
+.skills-list li {
+  display: table-row;
+  color: var(--text);
+  cursor: pointer;
+  font-size: var(--fs-body);
+}
+
+.skill-stars,
+.skill-name {
+  display: table-cell;
+  vertical-align: top;
+  padding: 0.1rem 0;
+  line-height: 1.35;
+}
+
+.skill-stars {
+  width: 101px;
+  min-width: 101px;
+  max-width: 101px;
+  padding-right: 11px;
+  white-space: nowrap;
+  line-height: 0;
+}
+
+.skill-name {
+  width: auto;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.skill-stars img {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  vertical-align: top;
+}
+
+.skill-item.is-highlighted {
+  color: var(--text-selected);
+}
+
+.skill-popup {
+  position: absolute;
+  z-index: 20;
+  padding: 0.75rem 1rem;
+  background: var(--menu-bg);
+  border: 2px solid var(--border);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+  font-size: var(--fs-body);
+  line-height: var(--lh-body);
+  color: var(--text);
+  text-align: left;
+  pointer-events: none;
+}
+
+.skill-popup[hidden] {
+  display: none;
+}
+
 /* —— Desktop —— */
 @media (min-width: 900px) {
   :root {
@@ -464,7 +547,6 @@ body.menu-open {
   }
 
   .content-inner {
-    max-width: 1000px;
     width: 100%;
     margin: 0;
     padding: var(--content-inset);
@@ -472,8 +554,7 @@ body.menu-open {
   }
 
   .hello-intro {
-    grid-template-columns: minmax(0, 1fr) 300px;
-    gap: 2rem 2.5rem;
+    gap: 2rem;
   }
 
   .hello-intro h1 {
@@ -504,5 +585,13 @@ body.menu-open {
 
   .project h2 {
     margin: 0 0 1.25rem;
+  }
+
+  .skills {
+    margin-top: 4rem;
+  }
+
+  .skills-category h2 {
+    margin-top: 2.5rem;
   }
 }

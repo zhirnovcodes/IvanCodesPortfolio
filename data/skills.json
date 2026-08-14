@@ -1,0 +1,264 @@
+{
+  "categories": [
+    {
+      "name": "Game Development",
+      "skills": [
+        {
+          "name": "Addressables / asset delivery",
+          "score": 4,
+          "description": "Used Addressables and Android asset delivery on live mobile titles."
+        },
+        {
+          "name": "Animation rig",
+          "score": 4,
+          "description": "Implemented animation rigs on a tower defense game and in a fighting-game prototype."
+        },
+        {
+          "name": "AppLovin",
+          "score": 4,
+          "description": "Integrated AppLovin into a new project and added new ad types."
+        },
+        {
+          "name": "Behaviour tree",
+          "score": 3,
+          "description": "Used for prototyping."
+        },
+        {
+          "name": "C#",
+          "score": 5,
+          "description": "Main language for 7+ years across Unity gameplay, SDKs, and ECS, including Burst and the managed/unmanaged boundary."
+        },
+        {
+          "name": "C++",
+          "score": 3,
+          "description": "Used for 2+ years; rewrote a C# analytics and purchases SDK in C++."
+        },
+        {
+          "name": "Cross-platform (iOS, Android, Desktop, Web)",
+          "score": 5,
+          "description": "Built and maintained the same systems on iOS, Android, desktop, and web."
+        },
+        {
+          "name": "DOTween",
+          "score": 5,
+          "description": "Used for in-game animations, lecture demos, and automated Unity visual sequences."
+        },
+        {
+          "name": "UniTask",
+          "score": 5,
+          "description": "Used for async workflows in lecture demos and automated Unity visual sequences."
+        },
+        {
+          "name": "Facebook SDK",
+          "score": 5,
+          "description": "Used for 5 years on social login and related client integrations."
+        },
+        {
+          "name": "Game AI",
+          "score": 5,
+          "description": "Built bot logic, state machines, and a need-based AI system in Unity ECS."
+        },
+        {
+          "name": "Game analytics",
+          "score": 5,
+          "description": "Worked on in-game analytics pipelines and analytics SDKs."
+        },
+        {
+          "name": "Game physics",
+          "score": 5,
+          "description": "Worked with the proprietary physics engine on Cut the Rope Daily and built a custom physics solution in Unity ECS."
+        },
+        {
+          "name": "Gameplay programming",
+          "score": 5,
+          "description": "Wrote gameplay systems including mechanics, physics, bots, animations, and battle scenarios."
+        },
+        {
+          "name": "HLSL / compute shaders",
+          "score": 3,
+          "description": "Used compute shaders for a physics-of-sound simulation in Unity."
+        },
+        {
+          "name": "In-game ads",
+          "score": 5,
+          "description": "Integrated ads into new projects and added new ad types."
+        },
+        {
+          "name": "In-game UI",
+          "score": 5,
+          "description": "Built and maintained in-game UI on most shipped titles."
+        },
+        {
+          "name": "Java",
+          "score": 2,
+          "description": "Used for native Android interop around Unity projects."
+        },
+        {
+          "name": "Multiplayer (client)",
+          "score": 3,
+          "description": "Worked on the client side of multiplayer for a poker title and a WebSocket prototype."
+        },
+        {
+          "name": "Objective-C",
+          "score": 2,
+          "description": "Used for native iOS interop around Unity projects."
+        },
+        {
+          "name": "OOP / SOLID / design patterns",
+          "score": 5,
+          "description": "Used to structure gameplay systems and SDKs."
+        },
+        {
+          "name": "Performance optimization",
+          "score": 5,
+          "description": "Profiled and optimized runtime performance, including large-scale ECS physics."
+        },
+        {
+          "name": "Unity (classic)",
+          "score": 5,
+          "description": "Used for 8 years on live titles, including engine upgrades on production projects."
+        },
+        {
+          "name": "Unity ECS / DOTS / Burst / Jobs",
+          "score": 5,
+          "description": "Current main work: custom physics, AI, and Asset Store packages with ECS, Burst, and the job system."
+        },
+        {
+          "name": "Unity IAP",
+          "score": 5,
+          "description": "Implemented in-app purchases with Unity IAP, Apple Pay, and Google Pay."
+        },
+        {
+          "name": "Unit / integration testing",
+          "score": 5,
+          "description": "Wrote unit and integration tests with NUnit and Catch2."
+        },
+        {
+          "name": "WebGL",
+          "score": 3,
+          "description": "Built web/WebGL versions of projects, including itch.io prototypes."
+        },
+        {
+          "name": "Xcode / Android Studio",
+          "score": 4,
+          "description": "Used for native iOS and Android work around Unity and C++ SDKs."
+        },
+        {
+          "name": "Xsolla",
+          "score": 3,
+          "description": "Integrated Xsolla into a purchase pipeline."
+        },
+        {
+          "name": "YaKassa",
+          "score": 3,
+          "description": "Integrated YaKassa into a new project with IAP support."
+        }
+      ]
+    },
+    {
+      "name": "Fullstack",
+      "skills": [
+        {
+          "name": "Client-server",
+          "score": 5,
+          "description": "Built client-server communication for payments, auth, and analytics, Nakama, and a WebSocket."
+        },
+        {
+          "name": "GDPR / compliance",
+          "score": 5,
+          "description": "Implemented GDPR requirements on authorization flows."
+        },
+        {
+          "name": "Nakama",
+          "score": 3,
+          "description": "Migrated a live title's server to Nakama."
+        },
+        {
+          "name": ".NET",
+          "score": 4,
+          "description": "Used .NET outside Unity gameplay code, mainly on SDKs and tools."
+        },
+        {
+          "name": "Node.js / backend",
+          "score": 3,
+          "description": "Worked on Node.js server code at Crazy Panda and on a WebSocket server for a prototype."
+        },
+        {
+          "name": "PHP",
+          "score": 2,
+          "description": "Used for code-generation templates with Mustache."
+        },
+        {
+          "name": "REST API",
+          "score": 4,
+          "description": "Used REST APIs in most companies; also set up APIs on the backend side."
+        },
+        {
+          "name": "SQL / Oracle",
+          "score": 2,
+          "description": "Wrote SQL against Oracle for internal tools and marketing queries; last used 2015–2017."
+        },
+        {
+          "name": "TypeScript / JavaScript",
+          "score": 3,
+          "description": "Migrated C# code to TypeScript and used it for client-server work."
+        }
+      ]
+    },
+    {
+      "name": "Operations",
+      "skills": [
+        {
+          "name": "Agile / Jira / Confluence",
+          "score": 5,
+          "description": "Used Jira and Confluence in studio workflow across several companies."
+        },
+        {
+          "name": "CI/CD",
+          "score": 4,
+          "description": "Set up CI/CD for teams with TeamCity, Unity, and GitHub."
+        },
+        {
+          "name": "Claude Code",
+          "score": 5,
+          "description": "Used daily at work; used it to set up automation pipelines."
+        },
+        {
+          "name": "Cursor",
+          "score": 5,
+          "description": "Used daily as the main coding environment."
+        },
+        {
+          "name": "Git",
+          "score": 5,
+          "description": "Used daily in every role, including GitHub and TortoiseGit."
+        },
+        {
+          "name": "n8n",
+          "score": 4,
+          "description": "Used to set up an automation pipeline."
+        }
+      ]
+    },
+    {
+      "name": "Other / Creative",
+      "skills": [
+        {
+          "name": "Ableton Live",
+          "score": 5,
+          "description": "Used for 10 years for music and audio work."
+        },
+        {
+          "name": "Figma",
+          "score": 5,
+          "description": "Used as a design and layout tool in day-to-day project work."
+        },
+        {
+          "name": "Photoshop",
+          "score": 5,
+          "description": "Used for 15 years."
+        }
+      ]
+    }
+  ]
+}
