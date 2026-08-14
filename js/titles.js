@@ -33,8 +33,8 @@
     var img = document.createElement("img");
     img.src = IMAGE_BASE + title.image;
     img.alt = title.name;
-    img.width = 200;
-    img.height = 130;
+    img.width = 150;
+    img.height = 100;
     link.appendChild(img);
 
     link.addEventListener("mouseenter", function () {

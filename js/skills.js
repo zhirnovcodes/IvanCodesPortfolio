@@ -90,18 +90,14 @@
       });
 
       item.addEventListener("click", function () {
-        if (clickedItem === item) {
-          clickedItem = null;
-        } else {
-          clickedItem = item;
-        }
+        clickedItem = clickedItem === item ? null : item;
         updateHighlight();
       });
 
       item.addEventListener("keydown", function (event) {
         if (event.key === "Enter" || event.key === " ") {
           event.preventDefault();
-          clickedItem = item;
+          clickedItem = clickedItem === item ? null : item;
           updateHighlight();
         }
       });
@@ -109,6 +105,13 @@
 
     mount.addEventListener("mouseleave", function () {
       hoveredItem = null;
+      clickedItem = null;
+      updateHighlight();
+    });
+
+    document.addEventListener("click", function (event) {
+      if (event.target.closest(".skills-list")) return;
+      if (!clickedItem) return;
       clickedItem = null;
       updateHighlight();
     });
