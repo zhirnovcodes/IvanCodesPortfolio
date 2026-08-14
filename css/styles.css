@@ -207,23 +207,33 @@ h2 {
 }
 
 .hello-intro {
-  display: flex;
-  flex-direction: column;
-  gap: 1.25rem;
-  margin-bottom: 1.5rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(8rem, 300px);
+  gap: 1.25rem 1.5rem;
+  align-items: start;
+}
+
+.hello-copy {
+  min-width: 0;
 }
 
 .hello-intro h1 {
   margin-bottom: 0.75rem;
 }
 
-.hello-intro .lead {
+.hello-copy p {
+  margin-bottom: 1rem;
+}
+
+.hello-copy p:last-child {
   margin-bottom: 0;
 }
 
 .hello-photo {
   margin: 0;
-  max-width: 18rem;
+  width: 100%;
+  max-width: 300px;
+  justify-self: end;
 }
 
 .contact-list {
@@ -462,19 +472,12 @@ body.menu-open {
   }
 
   .hello-intro {
-    display: grid;
-    grid-template-columns: 1fr minmax(14rem, 20rem);
-    gap: 2.5rem;
-    align-items: start;
-    margin-bottom: 2rem;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 2rem 2.5rem;
   }
 
   .hello-intro h1 {
     margin-bottom: 1.5rem;
-  }
-
-  .hello-photo {
-    max-width: none;
   }
 
   h1 {
