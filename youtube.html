@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube — Ivan Codes</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="topbar">
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open menu"
+        >
+          <img
+            src="assets/icons/menu-button.svg"
+            alt=""
+            width="40"
+            height="40"
+          />
+        </button>
+        <span class="topbar-brand">Ivan Codes</span>
+      </header>
+
+      <div class="nav-backdrop" hidden></div>
+
+      <aside id="site-nav" class="sidebar" aria-label="Main">
+        <div class="sidebar-brand">Ivan Codes</div>
+        <nav class="nav">
+          <a class="nav-link" href="index.html">Hello</a>
+          <a class="nav-link" href="working-on.html">What I’m working on</a>
+          <a class="nav-link" href="projects.html">Projects</a>
+          <a class="nav-link" href="freelance.html">Freelance, Prototypes</a>
+          <a class="nav-link is-active" href="youtube.html">YouTube</a>
+          <a class="nav-link" href="contact.html">Contacts</a>
+        </nav>
+      </aside>
+
+      <main class="content">
+        <article class="content-inner">
+          <h1>YouTube</h1>
+          <p class="lead">
+            Subscribe to my YouTube channel
+            <a
+              href="https://www.youtube.com/@IvanCodesSoCanYou"
+              target="_blank"
+              rel="noopener noreferrer"
+              >@IvanCodesSoCanYou</a
+            >
+            where I talk about Unity ECS and game development.
+          </p>
+
+          <section class="project">
+            <h2>Latest video</h2>
+            <div class="video-embed">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/E2M__WlXrI0"
+                title="Custom Unity ECS Physics — How It Works (Intro)"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <p>
+              My latest series is a dev log of how I made
+              <a href="working-on.html#little-physics">LittlePhysics</a>.
+            </p>
+            <p>
+              This channel is one of my
+              <a href="freelance.html#youtube-channel">side projects</a>.
+            </p>
+            <p class="project-store">
+              <a
+                href="https://www.youtube.com/@IvanCodesSoCanYou"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Subscribe on YouTube</a
+              >
+            </p>
+          </section>
+        </article>
+      </main>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

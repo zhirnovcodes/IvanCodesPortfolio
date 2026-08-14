@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" fill="none">
+  <rect width="960" height="540" fill="#d5cbb8"/>
+  <rect x="40" y="40" width="880" height="460" stroke="#4d5a54" stroke-width="4" fill="#ebe4d6"/>
+  <text x="480" y="270" text-anchor="middle" font-family="Georgia, serif" font-size="36" fill="#1c2421">Your image here</text>
+</svg>

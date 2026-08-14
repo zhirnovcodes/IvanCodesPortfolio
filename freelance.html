@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freelance, Prototypes — Ivan Codes</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="topbar">
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open menu"
+        >
+          <img
+            src="assets/icons/menu-button.svg"
+            alt=""
+            width="40"
+            height="40"
+          />
+        </button>
+        <span class="topbar-brand">Ivan Codes</span>
+      </header>
+
+      <div class="nav-backdrop" hidden></div>
+
+      <aside id="site-nav" class="sidebar" aria-label="Main">
+        <div class="sidebar-brand">Ivan Codes</div>
+        <nav class="nav">
+          <a class="nav-link" href="index.html">Hello</a>
+          <a class="nav-link" href="working-on.html">What I’m working on</a>
+          <a class="nav-link" href="projects.html">Projects</a>
+          <a class="nav-link is-active" href="freelance.html"
+            >Freelance, Prototypes</a
+          >
+          <a class="nav-link" href="youtube.html">YouTube</a>
+          <a class="nav-link" href="contact.html">Contacts</a>
+        </nav>
+      </aside>
+
+      <main class="content">
+        <article class="content-inner">
+          <h1>Freelance, Prototypes</h1>
+
+          <section class="project" id="youtube-channel">
+            <h2>YouTube Channel Ivan Codes</h2>
+            <div class="video-embed">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/E2M__WlXrI0"
+                title="YouTube Channel Ivan Codes"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <ul class="project-list">
+              <li>
+                Created an automated system that generates Unity visuals with
+                DOTween and UniTask.
+              </li>
+              <li>
+                Builds animations and sequences from prompt-based tasks in
+                Shortcuts.
+              </li>
+              <li>Runs prompts in Cursor.</li>
+            </ul>
+            <p class="project-store">
+              <a
+                href="https://www.youtube.com/@IvanCodesSoCanYou"
+                target="_blank"
+                rel="noopener noreferrer"
+                >YouTube</a
+              >
+            </p>
+          </section>
+
+          <section class="project" id="nature-of-the-sound">
+            <h2>Lecture for Nature of the Sounds</h2>
+            <div class="video-embed">
+              <iframe
+                src="https://player.vimeo.com/video/1018874379"
+                title="Lecture for Nature of the Sounds"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <ul class="project-list">
+              <li>
+                Lecture given at an event in Minsk, Belarus for 200 visitors.
+              </li>
+              <li>
+                Demonstrated how the physics of sound works using Unity URP
+                simulations.
+              </li>
+              <li>Molecule simulations are done with compute shaders.</li>
+              <li>Animations are done with DOTween and UniTask.</li>
+            </ul>
+            <div class="video-embed">
+              <video
+                controls
+                playsinline
+                preload="metadata"
+                src="assets/videos/freelance/nature%20of%20the%20sound.mp4"
+              >
+                Your browser does not support this video.
+              </video>
+            </div>
+          </section>
+
+          <section class="project" id="lost-in-a-cave">
+            <h2>Lost In A Cave</h2>
+            <div class="video-embed">
+              <video
+                controls
+                playsinline
+                preload="metadata"
+                src="assets/videos/freelance/Lost%20in%20a%20cave.mp4"
+              >
+                Your browser does not support this video.
+              </video>
+            </div>
+            <ul class="project-list">
+              <li>Prototype made for a soft skills school.</li>
+              <li>
+                Two-player multiplayer: one player is lost in a cave, the other
+                guides them out by phone.
+              </li>
+              <li>
+                The second player has a map, figures out where the lost player
+                is, and leads them out with messages.
+              </li>
+              <li>
+                Battery drains when using the flashlight or sending texts.
+              </li>
+              <li>The cave has traps and landmarks.</li>
+              <li>
+                Server connects players over WebSocket, hosted on Railway.
+              </li>
+            </ul>
+            <figure class="media media-fit">
+              <img
+                src="assets/images/freelance/lost_in_a_cave_map.png"
+                alt="Lost In A Cave map and phone UI for the guiding player"
+              />
+            </figure>
+            <p class="project-store">
+              <a
+                href="https://petr-pes.itch.io/lost-in-a-cave"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Play on itch.io</a
+              >
+              ·
+              <a
+                href="https://github.com/zhirnovcodes/LostInACave"
+                target="_blank"
+                rel="noopener noreferrer"
+                >GitHub</a
+              >
+              ·
+              <a
+                href="https://github.com/zhirnovcodes/Lost-In-A-Cave-Server"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Server</a
+              >
+            </p>
+          </section>
+        </article>
+      </main>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What I’m working on — Ivan Codes</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="topbar">
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open menu"
+        >
+          <img
+            src="assets/icons/menu-button.svg"
+            alt=""
+            width="40"
+            height="40"
+          />
+        </button>
+        <span class="topbar-brand">Ivan Codes</span>
+      </header>
+
+      <div class="nav-backdrop" hidden></div>
+
+      <aside id="site-nav" class="sidebar" aria-label="Main">
+        <div class="sidebar-brand">Ivan Codes</div>
+        <nav class="nav">
+          <a class="nav-link" href="index.html">Hello</a>
+          <a class="nav-link is-active" href="working-on.html"
+            >What I’m working on</a
+          >
+          <a class="nav-link" href="projects.html">Projects</a>
+          <a class="nav-link" href="freelance.html">Freelance, Prototypes</a>
+          <a class="nav-link" href="youtube.html">YouTube</a>
+          <a class="nav-link" href="contact.html">Contacts</a>
+        </nav>
+      </aside>
+
+      <main class="content">
+        <article class="content-inner">
+          <h1>What I’m working on</h1>
+          <p class="lead">
+            At the moment I’m deeply involved in learning ECS and
+            data-oriented design. I believe that with AI on its side it
+            might become a future of game development.
+          </p>
+          <p>
+            I started working on
+            <a href="#little-planet-keeper">my own project</a>, and in
+            between decided to sell intermediate packages to the Unity
+            Asset Store (WIP).
+          </p>
+
+          <section class="project" id="little-physics">
+            <h2>LittlePhysics</h2>
+            <p class="project-status">Coming to the Asset Store soon</p>
+            <div class="video-embed">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/SvjItMu0dro"
+                title="LittlePhysics"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <p>
+              Little Physics is a Unity ECS physics package for large-scale
+              simulations. Pause or speed up the simulation, use dynamic,
+              static, kinematic, and trigger bodies, and tune LOD for
+              simulation accuracy. A spatial map limits object-to-object
+              collisions to a volume you define. The package supports
+              directional and radial gravity, friction, and custom job
+              interfaces for collision detection and linecasts.
+            </p>
+            <p>
+              With ECS, Burst, and multithreading, it can handle on the order
+              of 1,000,000 entities. It suits low-determinism workloads such as
+              crowds, liquids, and particles.
+            </p>
+          </section>
+
+          <h2>Upcoming next</h2>
+
+          <section class="project">
+            <h2>Little Needs</h2>
+            <p class="project-status">In development</p>
+            <div class="video-embed">
+              <video
+                controls
+                playsinline
+                preload="metadata"
+                src="assets/videos/what_i_work_on/need_based_ai.mp4"
+              >
+                Your browser does not support this video.
+              </video>
+            </div>
+            <p>
+              Need-based decision system based on an article by
+              <a
+                href="https://robert.zubek.net/publications/Needs-based-AI-draft.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Robert Zubek</a
+              >
+              — for Unity ECS.
+            </p>
+            <ul class="project-list">
+              <li>Allows setting up actions for entities to choose from.</li>
+              <li>User-defined list of needs.</li>
+              <li>
+                Convenient setup of advertised needs with attenuation.
+              </li>
+            </ul>
+            <div class="media-row">
+              <figure class="media media-fit">
+                <img
+                  src="assets/images/what_i_work_on/advertiser.png"
+                  alt="Unity Inspector: Stat Advertiser Authoring with advertised fullness and Eat action"
+                />
+              </figure>
+              <figure class="media media-fit">
+                <img
+                  src="assets/images/what_i_work_on/attenuation.png"
+                  alt="Unity Inspector: Animal Stats Authoring and needs attenuation curves"
+                />
+              </figure>
+            </div>
+          </section>
+
+          <section class="project">
+            <h2>Little Actions</h2>
+            <p class="project-status">In development</p>
+            <div class="video-embed">
+              <video
+                controls
+                playsinline
+                preload="metadata"
+                src="assets/videos/what_i_work_on/action_chain.mp4"
+              >
+                Your browser does not support this video.
+              </video>
+            </div>
+            <p>Action chaining for Unity ECS.</p>
+            <ul class="project-list">
+              <li>Allows a chain of actions.</li>
+              <li>Can edit the chain at runtime.</li>
+              <li>
+                A managed-to-unmanaged interpreter lets you create actions in
+                managed C# as classes and then translate them into
+                Burst-compatible multithreaded code.
+              </li>
+            </ul>
+          </section>
+
+          <section class="project" id="little-planet-keeper">
+            <h2>Little Planet Keeper</h2>
+            <p>
+              All of the packages above will be used in my upcoming Unity ECS
+              project — Little Planet Keeper — a planet simulator where you
+              control tens of thousands of entities.
+            </p>
+            <p>Prototype:</p>
+            <div class="video-embed">
+              <iframe
+                src="https://player.vimeo.com/video/1097514585"
+                title="Little Planet Keeper prototype"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <p class="project-store">
+              <a
+                href="https://petr-pes.itch.io/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Play in browser on itch.io</a
+              >
+            </p>
+          </section>
+        </article>
+      </main>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
